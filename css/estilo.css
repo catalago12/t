@@ -1,0 +1,139 @@
+/*.header-1{
+    border: solid 2px;
+    height: 400px;
+}
+.ul-1 li{
+    display: inline;
+}
+.main-1{
+    border: solid 2px;
+    height: 200px;
+} */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    background-color: darkkhaki;
+}
+body {
+    width: 100%;
+    min-width: 400px;
+}
+/* || topografia */
+h1, h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+p,input,li{
+    font-family:'Roboto Condensed',sans-serif;
+    color: black;
+
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    text-shadow:2px 2px 10px black ;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.6rem;
+}
+p,li{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+/*|| header diseño*/
+
+header{
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+body >* {
+    background-color: blanchedalmond;
+    padding: 1%;
+    margin-bottom: auto;
+}
+main, header,nav, article,footer,section{
+    background-color: blanchedalmond;
+    padding: 1%;
+    font-weight: bolder;
+}
+h1 {
+    flex: 5;
+    text-transform: uppercase;
+}
+header img{
+    display: block;
+    height: 60px;
+    padding-top: 20.15px;
+}
+nav{
+    height: 50px;
+    flex: 100%;
+    display: flex;
+}
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+nav li{
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+nav a,nav span{
+    display: inline-block;
+    font-size: 2.5rem;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+/* || main diseño*/
+main {
+    display: flex;
+}
+article,section{
+    flex: 4;
+}
+aside{
+    flex: 1;
+    margin-left: 5;
+    padding: 1%;
+}
+aside a{
+    display: block;
+    float: left;
+    width: 50%;
+}
+aside img{
+    max-width: 100%;;
+
+}
+footer{
+    margin-top: 5px;
+}
+nav{
+    color: lightblue;
+}
+
+
+.mi clase {
+
+color: red;
+font-size: 30px;
+
+
+}
+
+;
